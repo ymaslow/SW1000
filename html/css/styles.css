@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b0225; /* светлый фон */
+}
+
+h1 {
+    text-align: center;
+    color: #bc1fc6; /* яркий цвет заголовка */
+    font-size: 2.5em; /* увеличенный размер шрифта */
+}
+
+.headers {
+    color: #bc1fc6; /* Цвет текста */
+    font-weight: 600; /* Полужирный текст */
+    font-size: 1.8em; /* Увеличенный размер шрифта */
+    margin: 15px 0; /* Отступ сверху и снизу */
+    text-align: center; /* Выравнивание по центру */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Легкая тень для выделения */
+}
+
+div {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* тень для блоков */
+}
+
+.bonus-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #1cdb1c; /* яркий цвет кнопки */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em; /* увеличенный размер текста */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #bc1fc6; /* цвет заголовка таблицы */
+    color: white;
+}
+
+@media screen and (min-width: 716px) {
+    .sb-main-image {
+       display: flex;
+   }
+}
+
+@media screen and (max-width: 716px) {
+    .sb-main-image {
+       text-align-last: center;
+   }
+}
+
+.sb-main-image {
+    .main-image {
+        max-width: 470px;
+        max-height: 380px;
+    }
+}
